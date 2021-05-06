@@ -1,0 +1,9 @@
+﻿  Game.cpp
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(44,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(60,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(70,20): warning C4305: '=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Game.cpp(164,5): warning C4102: 'std': unreferenced label
+  the game.vcxproj -> D:\projects\UFO Game Project\the game\x64\Debug\the game.exe

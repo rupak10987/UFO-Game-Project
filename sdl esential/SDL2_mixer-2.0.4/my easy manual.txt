@@ -1,0 +1,6 @@
+#include"SDL_mixer.h"
+SDL_Init(SDL_INIT_AUDIO);
+Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 4, 2048);
+Mix_Chunk* selecteffect;
+selecteffect = Mix_LoadWAV("select.wav");
+Mix_PlayChannel(-1, selecteffect, 0);
