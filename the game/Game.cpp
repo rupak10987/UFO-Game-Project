@@ -12,7 +12,7 @@
 using namespace std;
 bool Game::initialize()
 {
-	cout << "log1::initializing game object" << endl;
+	cout << "Initializing Game.." << endl;
 	if (!SDL_Init(SDL_INIT_EVERYTHING))
 	{
 		IMG_Init(NULL);
