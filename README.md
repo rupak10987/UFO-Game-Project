@@ -1,2 +1,2 @@
 # UFO-Game-Project
- this Projec is done with c++ and SDL
+ this Projec is simillar to the old classic ASTEROIDS game.
