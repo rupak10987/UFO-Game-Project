@@ -16,7 +16,7 @@ Ship::Ship(class Game* game) :
 	pposi.x = 32;
 	pposi.y = 32;
 	setposition(pposi);
-	std::cout << "initializing ship" << std::endl;
+	//std::cout << "initializing ship" << std::endl;
 	mcircle = new Circlecomponent(this, 5, 20);
 	class Inputcomponent* inputs = new Inputcomponent(this, 0);
 	inputs->setkeys(SDL_SCANCODE_W, SDL_SCANCODE_S, SDL_SCANCODE_A, SDL_SCANCODE_D,SDL_SCANCODE_SPACE);
