@@ -2,4 +2,5 @@
  This Projec is simillar to the old classic game "ASTEROIDS"
 
 #OVERVIEW
-![Overview](https://user-images.githubusercontent.com/83497932/117456664-41302300-af6a-11eb-95a6-a3ee6e89780f.png)
+![Preview](https://user-images.githubusercontent.com/83497932/117460920-d6cdb180-af6e-11eb-9d47-618cecbd4796.png)
+
