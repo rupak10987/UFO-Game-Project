@@ -61,4 +61,5 @@ private:
 	class Ship* p;
 	class background* b;
 	class Hud* hud;
+	SDL_Texture* loading;
 };
