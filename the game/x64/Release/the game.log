@@ -1,10 +1,115 @@
-﻿  Ship.cpp
-C:\Users\rupak\Desktop\2021 roja\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\rupak\Desktop\2021 roja\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\rupak\Desktop\2021 roja\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+﻿  Animation_sprite.cpp
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  bullet.cpp
+D:\projects\UFO Game Project\the game\Animation_sprite.cpp(26,25): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  bullet2.cpp
+D:\projects\UFO Game Project\the game\bullet.cpp(87,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  bullet_shotgun.cpp
+D:\projects\UFO Game Project\the game\bullet2.cpp(9,23): warning C4305: '=': truncation from 'double' to 'float'
+  Circlecomponent.cpp
+  Component.cpp
+  Damage_counter_Sprite.cpp
+D:\projects\UFO Game Project\the game\bullet_shotgun.cpp(9,22): warning C4305: '=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  EMP.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\EMP.cpp(69,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Math.cpp
+  Game.cpp
+D:\projects\UFO Game Project\the game\EMP.cpp(74,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(61,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(78,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Game.cpp(88,20): warning C4305: '=': truncation from 'double' to 'float'
+  Hud.cpp
+D:\projects\UFO Game Project\the game\Game.cpp(182,5): warning C4102: 'std': unreferenced label
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+  Inputcomponent.cpp
+D:\projects\UFO Game Project\the game\Hud.cpp(70,58): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Life_Spritecomponent.cpp
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Life_Spritecomponent.cpp(17,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Life_Spritecomponent.cpp(19,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  loot.cpp
+D:\projects\UFO Game Project\the game\Life_Spritecomponent.cpp(29,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+  loot_emp.cpp
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  loot_life.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  loot_shotgun_ammo.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  loot_sniper_ammo.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  movecomponent.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\movecomponent.cpp(33,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\movecomponent.cpp(51,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\movecomponent.cpp(70,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Object.cpp
+D:\projects\UFO Game Project\the game\movecomponent.cpp(89,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Compiling...
+  Ship.cpp
+D:\projects\UFO Game Project\the game\Object.cpp(9,19): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+  Source.cpp
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Spritecomponent.cpp
+D:\projects\UFO Game Project\the game\Source.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent.cpp(24,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent.cpp(25,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent.cpp(26,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  stones.cpp
+D:\projects\UFO Game Project\the game\Spritecomponent.cpp(27,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.h(33,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.h(21,29): warning C4305: '-=': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\Animation_sprite.h(9,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(19,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\Spritecomponent_offset_position.h(20,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\projects\UFO Game Project\the game\stones.cpp(12,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.cpp(14,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.cpp(15,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\projects\UFO Game Project\the game\stones.cpp(65,27): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\projects\UFO Game Project\the game\stones.cpp(150,24): warning C4305: '=': truncation from 'double' to 'float'
   Generating code
-  1 of 1185 functions (<0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  1172 of 1186 functions (98.8%) were compiled, the rest were copied from previous compilation.
+    306 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  the game.vcxproj -> C:\Users\rupak\Desktop\2021 roja\the game\x64\Release\the game.exe
+  the game.vcxproj -> D:\projects\UFO Game Project\the game\x64\Release\the game.exe
