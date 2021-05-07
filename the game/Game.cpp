@@ -35,12 +35,20 @@ bool Game::initialize()
 }
 void Game::Cache(const char* fname)
 {
-	cout << "caching texture by printing" << endl;
+	int mytexwidth;
+	int mytexheight;
 	SDL_Rect temprect;
-	temprect.x = 0;
-	temprect.y = 0;
+	temprect.x = 100;
+	temprect.y = 100;
 	SDL_Texture* tx = gettexture(fname);
-	//SDL_QueryTexture(tx,)
+	SDL_QueryTexture(tx, nullptr, nullptr, &mytexwidth, &mytexheight);
+	temprect.w = mytexwidth;
+	temprect.h = mytexheight;
+	SDL_SetRenderDrawColor(mrenderer, 200, 200, 100, 255);
+	SDL_RenderClear(mrenderer);
+	SDL_RenderCopy(mrenderer, tx, NULL, &temprect);
+	SDL_RenderCopy(mrenderer, loading, NULL, NULL);
+	SDL_RenderPresent(mrenderer);	
 }
 void Game::loaddata()
 {
@@ -52,6 +60,7 @@ void Game::loaddata()
 		class stones* s = new stones(this);
 		s->id = 10+i;
 	}
+	loading = gettexture("ship_assets/LOADING.png");
 	load_all_possible_tex_at_start();
 	load_all_possible_sfx_at_start();
 	//deltatime init segment
@@ -261,12 +270,14 @@ void Game:: load_all_possible_tex_at_start()
 {
 	//bullets............................
 	gettexture("ship_assets/bullet3.png");
+	Cache("ship_assets/bullet3.png");
 	gettexture("ship_assets/bullet1.png");
+	Cache("ship_assets/bullet1.png");
 	gettexture("ship_assets/bullet2.png");
-	//loos................................
+	Cache("ship_assets/bullet2.png");
+	//loots................................
 	stringstream filename_inital1;
 	stringstream filename_inital2;
-	stringstream filename_inital3;
 	string filename;
 	filename_inital1 << "ship_assets/loot_shotgun_ammo/000";
 	filename_inital2 << "ship_assets/loot_shotgun_ammo/00";
@@ -279,48 +290,60 @@ void Game:: load_all_possible_tex_at_start()
 		else
 			filename = filename_inital2.str() + num.str() + ".png";
 		gettexture(filename.c_str());
+		Cache(filename.c_str());
 	}
-	filename_inital1 << "ship_assets/loot_sniper_amo/000";
-	filename_inital2 << "ship_assets/loot_sniper_amo/00";
+	stringstream filename_inital3;
+	stringstream filename_inital4;
+	string filename1;
+	filename_inital3 << "ship_assets/loot_sniper_amo/000";
+	filename_inital4 << "ship_assets/loot_sniper_amo/00";
 	for (int j = 1; j <= 59; j++)
 	{
 		stringstream num;;
 		num << j;
 		if (j < 10)
-			filename = filename_inital1.str() + num.str() + ".png";
+			filename1 = filename_inital3.str() + num.str() + ".png";
 		else
-			filename = filename_inital2.str() + num.str() + ".png";
-		gettexture(filename.c_str());
+			filename1 = filename_inital4.str() + num.str() + ".png";
+		gettexture(filename1.c_str());
+		Cache(filename1.c_str());
 	}
-	filename_inital1 << "ship_assets/loot_emp/000";
-	filename_inital2 << "ship_assets/loot_emp/00";
+	stringstream filename_inital5;
+	stringstream filename_inital6;
+	string filename2;
+	filename_inital5 << "ship_assets/loot_emp/000";
+	filename_inital6 << "ship_assets/loot_emp/00";
 	for (int j = 1; j <= 59; j++)
 	{
 		stringstream num;;
 		num << j;
 		if (j < 10)
-			filename = filename_inital1.str() + num.str() + ".png";
+			filename2 = filename_inital5.str() + num.str() + ".png";
 		else
-			filename = filename_inital2.str() + num.str() + ".png";
-		gettexture(filename.c_str());
+			filename2 = filename_inital6.str() + num.str() + ".png";
+		gettexture(filename2.c_str());
+		Cache(filename2.c_str());
 	}
 	//............................emp effect
-	filename_inital1 << "ship_assets/emp_trial/000";
-	filename_inital2 << "ship_assets/emp_trial/00";
+	stringstream filename_inital7;
+	stringstream filename_inital8;
+	string filename3;
+	filename_inital7 << "ship_assets/emp_trial/000";
+	filename_inital8 << "ship_assets/emp_trial/00";
 	for (int j = 1; j <= 20; j++)
 	{
 		stringstream num;;
 		num << j;
 		if (j < 10)
-			filename = filename_inital1.str() + num.str() + ".png";
+			filename3 = filename_inital7.str() + num.str() + ".png";
 		else if (j >= 10 && j < 100)
-			filename = filename_inital2.str() + num.str() + ".png";
-		gettexture(filename.c_str());
+			filename = filename_inital8.str() + num.str() + ".png";
+		gettexture(filename3.c_str());
+		Cache(filename3.c_str());
 	}
-	//bullets.....
-	gettexture("ship_assets/bullet1.png");
-	gettexture("ship_assets/bullet3.png");
-	gettexture("ship_assets/bullet2.png");
+	//lifes.....
+	gettexture("ship_assets/life3.png");
+	gettexture("ship_assets/life2.png");
 	//numbers.............
 	stringstream number;
 	string show;
@@ -328,23 +351,25 @@ void Game:: load_all_possible_tex_at_start()
 	{
 		number << i;
 		show = "-" + number.str();
-		gettexture(show.c_str());
+		SDL_Color col = { 10,10,10,255 };
+		get_text_as_texture(show.c_str(),col,12);
 	}
-
-	filename_inital1 << "ship_assets/hud_life_circle/000";
-	filename_inital2 << "ship_assets/hud_life_circle/00";
+	stringstream filename_inital9;
+	stringstream filename_inital10;
+	string filename4;
+	filename_inital9 << "ship_assets/hud_life_circle/000";
+	filename_inital10 << "ship_assets/hud_life_circle/00";
 	for (int j = 0; j <= 50; j++)
 	{
 		stringstream num;;
 		num << j;
 		if (j < 10)
-			filename = filename_inital1.str() + num.str() + ".png";
+			filename4 = filename_inital9.str() + num.str() + ".png";
 		else
-			filename = filename_inital2.str() + num.str() + ".png";
-		gettexture(filename.c_str());
+			filename4 = filename_inital10.str() + num.str() + ".png";
+		gettexture(filename4.c_str());
+		Cache(filename4.c_str());
 	}
-	for(int i=0;i<10;i++)
-	draw();
 }
 void Game::load_all_possible_sfx_at_start()
 {

@@ -10,11 +10,6 @@ stones::stones(class Game* game):
 {
 	game->add_stone(this);
 	float rot = Math::ToRadians(rand() % 361);
-	/*int rott = Math::ToDegrees(rot);
-	if (rott % 360 == 0)
-	{
-		rott += 20;
-	}*/
 	Vector2 p;
 	p.x = 50+ (rand() % 1017);
 	p.y = 50+ (rand() % 550);
