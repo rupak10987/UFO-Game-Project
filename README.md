@@ -1,2 +1,2 @@
 # UFO-Game-Project
- this Projec is simillar to the old classic ASTEROIDS game.
+ This Projec is simillar to the old classic game "ASTEROIDS".
