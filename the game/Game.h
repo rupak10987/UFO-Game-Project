@@ -40,6 +40,7 @@ public:
 	Mix_Chunk* get_sfx(const char* filename);
 private:
 	//functions.......
+	void Cache(const char* fname);
 	void loaddata();
 	void handleinput();
 	void update();

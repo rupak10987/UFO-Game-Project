@@ -33,6 +33,15 @@ bool Game::initialize()
 	}
 	
 }
+void Game::Cache(const char* fname)
+{
+	cout << "caching texture by printing" << endl;
+	SDL_Rect temprect;
+	temprect.x = 0;
+	temprect.y = 0;
+	SDL_Texture* tx = gettexture(fname);
+	//SDL_QueryTexture(tx,)
+}
 void Game::loaddata()
 {
 	b = new background(this);
