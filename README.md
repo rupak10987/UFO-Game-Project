@@ -1,5 +1,5 @@
 # UFO-Game-Project
- This Projec is simillar to the old classic game "ASTEROIDS"
+ This Project is simillar to the old classic game "ASTEROIDS"
 
 <b>OVERVIEW</b>
 
