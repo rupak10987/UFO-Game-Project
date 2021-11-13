@@ -15,9 +15,9 @@ Hold [LSHIFT] while moving to speed up
 
 [Q] to fire special guns(sniper, shotgun, emp) which ammunitions can be Looted from dead ufo.
 
-<b>Instructions</b>
-Download the repo. Go to 
-Then run as admin.
+<b>Instructions</b><br>
+Download the repo. Go to the game/x64/Debug/
+Then run (the game.exe) as admin.
 
 <b>New Features</b>
 
