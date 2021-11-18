@@ -1,5 +1,5 @@
 # UFO-Game-Project
- This Project is simillar to the old classic game "ASTEROIDS"
+ This Game is made with SDL & c++ & it is inspired by the old classic arcade game "ASTEROIDS"
 
 <b>OVERVIEW</b>
 
